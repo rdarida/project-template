@@ -3,6 +3,22 @@
 # Project Template
 Kick off your project with this template.
 
+## Project setup
+1. Rename all the occurrance of **"project-template"** and **"Project Template"** in the project.
+
+2. Remove **`package-lock.json`** from **`.gitignore`**.
+
+3. Run **`npm install`**.
+
+## Available scripts
+In the project directory, you can run:
+
+### `release`
+Runs [standard-version](https://github.com/conventional-changelog/standard-version/) for versioning using [semver](https://semver.org/) and CHANGELOG generation powered by [Conventional Commits](https://conventionalcommits.org).
+
+### `postrelease`
+Runs AFTER `release`, pushes **standard-version**'s modification into the git repository.
+
 ## What's inside?
 A quick look at the top-level files and directories.
 
