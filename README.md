@@ -1,3 +1,5 @@
+![Dependencies](https://david-dm.org/rdarida/project-template/status.svg) ![Development Dependencies](https://david-dm.org/rdarida/project-template/dev-status.svg)
+
 # Project Template
 Kick off your project with this template.
 
@@ -8,7 +10,9 @@ A quick look at the top-level files and directories.
     ├── .vscode/
     ├── .editorconfig
     ├── .gitignore
+    ├── commitlint.config.js
     ├── LICENSE
+    ├── package.json
     └── README.md
 
 1. **`.vscode/`**: This directory contains the workspace specific [VSCode settings](https://code.visualstudio.com/docs/getstarted/settings).
@@ -17,6 +21,10 @@ A quick look at the top-level files and directories.
 
 3. **`.gitignore`**: This file tells git which files should not track / not maintain a version history for. See more about ignoring files [here](https://help.github.com/articles/ignoring-files/).
 
-4. **`LICENSE`**: This template is licensed under the MIT license.
+4. **`commitlint.config.js`**: Helps adhering to a commit convention. By supporting npm-installed configurations it makes sharing of commit conventions easy. See more about [here](https://commitlint.js.org).
 
-5. **`README.md`**: A text file containing useful reference information about your project.
+5. **`LICENSE`**: This template is licensed under the MIT license.
+
+6. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project. See more about the manifest file [here](https://docs.npmjs.com/cli/v6/configuring-npm/package-json).
+
+7. **`README.md`**: A text file containing useful reference information about your project.
